@@ -8,6 +8,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@iconify/icons-bi": "^1.1.13",
+    "@iconify/icons-brandico": "^1.1.0",
+    "@iconify/icons-eva": "^1.1.0",
+    "@iconify/icons-fa-brands": "^1.1.1",
+    "@iconify/icons-jam": "^1.1.1",
+    "@iconify/react": "^3.1.3",
     "aos": "^2.3.4",
     "next": "12.0.10",
     "react": "17.0.2",
