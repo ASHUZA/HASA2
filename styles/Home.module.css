@@ -1,4 +1,3 @@
-
 .cover {
   background-image: url("./../pages/images/hero3.jpg");
   background-size: cover;
@@ -166,11 +165,10 @@
   /* padding-top: 10px; */
 }
 
-
-.domaine_box  svg {
-/* background-color: rgb(196, 63, 63); */
-height: 30px;
-width: 30px;
+.domaine_box svg {
+  /* background-color: rgb(196, 63, 63); */
+  height: 30px;
+  width: 30px;
 }
 
 .domaine_box .domaine_item {
@@ -442,7 +440,7 @@ width: 30px;
 .footer_item {
   height: 90%;
   width: 250px;
-   /* background-color: rgb(80, 221, 52);  */
+  /* background-color: rgb(80, 221, 52);  */
 
   margin-bottom: 30px;
 }
@@ -458,25 +456,17 @@ width: 30px;
   /* background-color: blue; */
 }
 
-
 .item_logo {
-
   height: 90%;
   width: 250px;
 
   margin-bottom: 30px;
 
-
-
-  margin-bottom: 30px;
   display: flex;
   justify-content: start;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 30px;
-  /* background-color: rgb(163, 43, 43); */
 }
-
 
 .footer_text {
   width: 80%;
@@ -498,10 +488,7 @@ width: 30px;
   align-items: center;
   flex-direction: column;
   margin-bottom: 30px;
-
-  /* background-color: #fff; */
 }
-
 
 .footer_link_title {
   font-family: Roboto;
@@ -515,11 +502,10 @@ width: 30px;
   margin-left: 20px;
 }
 
-
-.footer_link{
+.footer_link {
   height: 90%;
   width: 250px;
-   /* background-color: rgb(80, 221, 52);  */
+  /* background-color: rgb(80, 221, 52);  */
 
   margin-bottom: 30px;
 }
@@ -538,9 +524,6 @@ width: 30px;
 .footer_link ul li {
   color: #ffffff;
 }
-
-
-
 
 .footer_contact_title {
   font-family: Roboto;
@@ -661,12 +644,6 @@ width: 30px;
   border-top: 10px solid #4c7cf7;
 }
 
-
-
-
-
-
-
 @media only screen and (max-width: 750px) {
   .domaine {
     /* height: 60vh;  */
@@ -674,7 +651,7 @@ width: 30px;
     padding: 30px;
   }
 
-  .item_logo{
+  .item_logo {
     /* background-color: aqua; */
     width: 100%;
     display: flex;
@@ -683,18 +660,15 @@ width: 30px;
     justify-content: flex-start;
   }
 
-  .item_logo .footer_text{
+  .item_logo .footer_text {
     /* background-color: aqua; */
     width: 100%;
   }
 
-
-  
-  .item_logo .footer_logo{
+  .item_logo .footer_logo {
     /* background-color: aqua; */
     width: 60%;
   }
-
 
   .domaine_box .domaine_item_main {
     height: 50px;
@@ -745,19 +719,18 @@ width: 30px;
     justify-content: center;
     align-items: center;
 
-    /* background-color: darkgreen; */
     color: #ffffff;
     margin-bottom: 20px;
   }
 
   .about2 .about_text {
     width: 350px;
-    /* margin-top: -70px;  */
+
     display: flex;
     justify-content: center;
     justify-items: center;
     flex-direction: column;
-    /* background-color: rgb(182, 154, 30);  */
+
     margin-bottom: 40px;
   }
 
@@ -822,8 +795,7 @@ width: 30px;
     margin-left: -3px;
   }
 
-
-  .footer_item_adress{
+  .footer_item_adress {
     margin-bottom: 30px;
   }
 }
