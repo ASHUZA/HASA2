@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from "next/head";
 import img1 from "./../pages/images/team/team-image.jpg";
 import img2 from "./../pages/images/team/team-image01.jpg";
 import img3 from "./../pages/images/team/team-image.jpg";
@@ -321,10 +321,7 @@ export default function Home() {
             <Image src={logo1} alt="" />
           </div>
           <div className={styles.about_text}>
-            <div className={styles.about_text_title}>
-              {" "}
-              Ce que nous faisons{" "}
-            </div>
+            <div className={styles.about_text_title}> Ce que nous faisons </div>
             <div
               className={styles.about_text_main}
               data-aos="fade-up"
@@ -377,7 +374,8 @@ export default function Home() {
           <div className={styles.footer_main}>
             {" "}
             <div
-              className={(styles.footer_item, styles.item_logo)}
+              className={styles.footer_item}
+              className={styles.item_logo}
               data-aos="fade-up"
               data-aos-delay="700"
             >
@@ -390,7 +388,8 @@ export default function Home() {
               </div>
             </div>
             <div
-              className={(styles.footer_item, styles.footer_link)}
+              className={styles.footer_item}
+              className={styles.footer_link}
               data-aos="fade-up"
               data-aos-delay="700"
             >
