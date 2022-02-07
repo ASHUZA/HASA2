@@ -492,7 +492,7 @@ width: 30px;
   text-align: justify;
 }
 
-.item-logo {
+.item_logo {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -803,7 +803,7 @@ width: 30px;
     padding: 30px;
   }
 
-  .item-logo {
+  .item_logo {
     display: flex;
     justify-content: start;
     align-items: flex-start;
