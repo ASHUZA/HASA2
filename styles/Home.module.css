@@ -384,6 +384,8 @@ width: 30px;
   align-items: center;
   padding-bottom: 40px;
   padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .place_carte {
@@ -672,6 +674,28 @@ width: 30px;
     padding: 30px;
   }
 
+  .item_logo{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .item_logo .footer_text{
+    /* background-color: aqua; */
+    width: 100%;
+  }
+
+
+  
+  .item_logo .footer_logo{
+    /* background-color: aqua; */
+    width: 60%;
+  }
+
+
   .domaine_box .domaine_item_main {
     height: 50px;
     width: 350px;
@@ -796,5 +820,10 @@ width: 30px;
 
   .footer_link_title {
     margin-left: -3px;
+  }
+
+
+  .footer_item_adress{
+    margin-bottom: 30px;
   }
 }
