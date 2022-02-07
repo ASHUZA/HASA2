@@ -1,9 +1,4 @@
-import Head from 'next/head'
-import img1 from "./../pages/images/team/team-image.jpg";
-import img2 from "./../pages/images/team/team-image01.jpg";
-import img3 from "./../pages/images/team/team-image.jpg";
-import img4 from "./../pages/images/class/crossfit-class.jpg";
-import img5 from "./../pages/images/class/cardio-class.jpg";
+
 import { Icon } from "@iconify/react";
 import twitterBird from "@iconify/icons-brandico/twitter-bird";
 import facebookFill from "@iconify/icons-eva/facebook-fill";
@@ -377,7 +372,7 @@ export default function Home() {
           <div className={styles.footer_main}>
             {" "}
             <div
-              className={(styles.footer_item, styles.item_logo)}
+              className={ styles.item_logo}
               data-aos="fade-up"
               data-aos-delay="700"
             >
@@ -390,7 +385,7 @@ export default function Home() {
               </div>
             </div>
             <div
-              className={(styles.footer_item, styles.footer_link)}
+              className={styles.footer_link}
               data-aos="fade-up"
               data-aos-delay="700"
             >

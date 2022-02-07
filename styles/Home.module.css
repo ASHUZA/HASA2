@@ -466,6 +466,7 @@ width: 30px;
 
 
 
+  margin-bottom: 30px;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -512,6 +513,14 @@ width: 30px;
   margin-left: 20px;
 }
 
+
+.footer_link{
+  height: 90%;
+  width: 250px;
+   /* background-color: rgb(80, 221, 52);  */
+
+  margin-bottom: 30px;
+}
 .footer_link ul li a {
   font-family: Roboto;
   font-style: normal;
