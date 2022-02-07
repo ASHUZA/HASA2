@@ -1,4 +1,3 @@
-
 import { Icon } from "@iconify/react";
 import twitterBird from "@iconify/icons-brandico/twitter-bird";
 import facebookFill from "@iconify/icons-eva/facebook-fill";
@@ -74,6 +73,10 @@ export default function Home() {
             <Image src={rdc_carte} alt="" />
           </div>
         </section>
+
+
+
+        
         {/* 
       <section className={styles.video-box">
         <div className={styles.video-item"></div>
@@ -316,10 +319,7 @@ export default function Home() {
             <Image src={logo1} alt="" />
           </div>
           <div className={styles.about_text}>
-            <div className={styles.about_text_title}>
-              {" "}
-              Ce que nous faisons{" "}
-            </div>
+            <div className={styles.about_text_title}> Ce que nous faisons </div>
             <div
               className={styles.about_text_main}
               data-aos="fade-up"
@@ -372,7 +372,7 @@ export default function Home() {
           <div className={styles.footer_main}>
             {" "}
             <div
-              className={ styles.item_logo}
+              className={styles.item_logo}
               data-aos="fade-up"
               data-aos-delay="700"
             >
