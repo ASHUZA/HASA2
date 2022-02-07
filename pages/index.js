@@ -1,3 +1,4 @@
+
 import { Icon } from "@iconify/react";
 import twitterBird from "@iconify/icons-brandico/twitter-bird";
 import facebookFill from "@iconify/icons-eva/facebook-fill";
@@ -77,11 +78,7 @@ export default function Home() {
 
 
         
-        {/* 
-      <section className={styles.video-box">
-        <div className={styles.video-item"></div>
-        <div className={styles.video-item"></div>
-      </section> */}
+
         <section
           className={styles.domaine}
           data-aos="fade-up"
