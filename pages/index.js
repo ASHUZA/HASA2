@@ -1,4 +1,3 @@
-
 import { Icon } from "@iconify/react";
 import twitterBird from "@iconify/icons-brandico/twitter-bird";
 import facebookFill from "@iconify/icons-eva/facebook-fill";
@@ -8,6 +7,8 @@ import whatsappIcon from "@iconify/icons-fa-brands/whatsapp";
 import logo_nova from "./../pages/images/logo-nova2.png";
 
 import rdc_carte from "./../pages/images/rdc-carte.png";
+import dame1 from "./../pages/images/dame2.png";
+
 import logo3 from "./../pages/images/logo3.png";
 import logo1 from "./../pages/images/logo2.png";
 import hero4 from "./../pages/images/hero4.jpg";
@@ -25,13 +26,64 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <>
+      {/* <header className="fixed-top ">
+          <div className="container d-flex align-items-center">
+            <h1 className="logo mr-auto">
+              <Link to="index.html"></Link>
+            </h1>
+
+            <nav className="nav-menu d-none d-lg-block">
+              <ul>
+                <li className="active">
+                  <Link to="/#home">Home</Link>
+                </li>
+                <li>
+                  <Link to="/#about">About</Link>
+                </li>
+                <li>
+                  <Link to="/#services">Skills</Link>
+                </li>
+                <li>
+                  <Link to="/#portfolio">Projets</Link>
+                </li>
+                <li>
+                  <Link to="/#team">Curriculum V</Link>
+                </li>
+
+                <li>
+                  <Link to="/#contact">Contact</Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header> */}
+
+      <div className="sliders">
+        <div className="sliders--content">
+          <div className="sliders--feature">
+            <h1 className="feature--title">
+              Health around-Hasa, Partenaire de terrain au niveau local pour les
+              soins de santé équitables pour tous
+            </h1>
+
+            <div className="slider_logo">
+              <Image src={logo3} alt="" />
+            </div>
+          </div>
+
+          <div className="slider_image">
+            <Image src={dame1} alt="" />
+          </div>
+        </div>
+      </div>
+
       <div className={styles.container}>
         {/* <Slider images={Images} /> */}
 
         <section
           className={styles.about}
           data-aos="fade-up"
-          data-aos-delay="300"
+          data-aos-delay="600"
         >
           <div className={styles.domaine_title}>Qui sommes-nous ?</div>
           <div className={styles.about_main}>
@@ -39,7 +91,7 @@ export default function Home() {
               <Image src={hero4} alt="" />
             </div>
             <div className={styles.about_text}>
-              <p data-aos="fade-up" data-aos-delay="300">
+              <p data-aos="fade-up" data-aos-delay="600">
                 <strong>
                   Initié comme projet depuis 2018, HEALTH AROUND/Santé autour,
                   Hasa en sigle est une association sans but lucratif et
@@ -69,20 +121,16 @@ export default function Home() {
           <div
             className={styles.place_carte}
             data-aos="fade-up"
-            data-aos-delay="300"
+            data-aos-delay="600"
           >
             <Image src={rdc_carte} alt="" />
           </div>
         </section>
 
-
-
-        
-
         <section
           className={styles.domaine}
           data-aos="fade-up"
-          data-aos-delay="300"
+          data-aos-delay="600"
         >
           <container>
             <div className={styles.domaine_title}>Nos domaines d’activités</div>
@@ -91,7 +139,7 @@ export default function Home() {
               <di
                 className={styles.domaine_item_main}
                 data-aos="fade-up"
-                data-aos-delay="300"
+                data-aos-delay="600"
               >
                 <p> Santé maternelle et Planning familiale </p>
                 <svg
@@ -121,7 +169,7 @@ export default function Home() {
               <di
                 className={styles.domaine_item}
                 data-aos="fade-up"
-                data-aos-delay="300"
+                data-aos-delay="600"
               >
                 <p> VIH/SIDA </p>
                 <svg
@@ -151,7 +199,7 @@ export default function Home() {
               <di
                 className={styles.domaine_item}
                 data-aos="fade-up"
-                data-aos-delay="300"
+                data-aos-delay="600"
               >
                 <p> Nutrition </p>
                 <svg
@@ -181,7 +229,7 @@ export default function Home() {
               <di
                 className={styles.domaine_item_main}
                 data-aos="fade-up"
-                data-aos-delay="300"
+                data-aos-delay="600"
               >
                 <p>WASH (eau, assainissement et hygiène) </p>
                 <svg
@@ -211,7 +259,7 @@ export default function Home() {
               <di
                 className={styles.domaine_item_main}
                 data-aos="fade-up"
-                data-aos-delay="300"
+                data-aos-delay="600"
               >
                 <p>
                   {" "}
@@ -244,7 +292,7 @@ export default function Home() {
               <di
                 className={styles.domaine_item_main}
                 data-aos="fade-up"
-                data-aos-delay="300"
+                data-aos-delay="600"
               >
                 <p>Pathologies Médico-chirurgicales invalidantes </p>
                 <svg
@@ -273,7 +321,7 @@ export default function Home() {
               <di
                 className={styles.domaine_item_main}
                 data-aos="fade-up"
-                data-aos-delay="300"
+                data-aos-delay="600"
               >
                 <p> Urgences Sanitaires (Epidémies et Catastrophes) </p>
                 <svg
@@ -306,12 +354,12 @@ export default function Home() {
         <section
           className={styles.about2}
           data-aos="fade-up"
-          data-aos-delay="300"
+          data-aos-delay="600"
         >
           <div
             className={styles.about_img}
             data-aos="fade-up"
-            data-aos-delay="300"
+            data-aos-delay="600"
           >
             <Image src={logo1} alt="" />
           </div>
@@ -320,7 +368,7 @@ export default function Home() {
             <div
               className={styles.about_text_main}
               data-aos="fade-up"
-              data-aos-delay="300"
+              data-aos-delay="600"
             >
               <p>
                 Nous apportons de l’aide sanitaire et humanitaire aux couches de
