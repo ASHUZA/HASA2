@@ -21,18 +21,13 @@ import Image from "next/image";
 
 import styles from "../styles/Home.module.css";
 
-import Head from 'next/head'
+import Head from "next/head";
 import Layout from "../component/layout";
 
 export default function Home() {
   return (
     <>
-
-      <Layout/>
-    
-
-
-
+      <Layout />
 
       <div className={styles.sliders}>
         <div className={styles.sliders__content}>

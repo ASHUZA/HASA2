@@ -37,8 +37,6 @@
 }
 
 .navlink {
-  /* text-transform: capitalize; */
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -58,18 +56,12 @@
 .navlogo {
   height: 60px;
   width: 180px;
-  /* background-color: rgb(177, 67, 67); */
 }
 
-
-
 @media only screen and (min-width: 768px) {
-    .navbar {
- 
-        padding: 0  200px 0 200px ;
-    
-      }
-
+  .navbar {
+    padding: 0 200px 0 200px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .navmenu {
