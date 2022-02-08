@@ -1,0 +1,126 @@
+.header {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0  200px 0 200px ; */
+  height: 60px;
+
+  font-family: Roboto;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 35px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #222222;
+}
+
+.navmenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navitem {
+  margin-left: 5rem;
+}
+
+.navlink {
+  /* text-transform: capitalize; */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 16px;
+  text-align: justify;
+  letter-spacing: -0.017em;
+
+  color: #326e92;
+}
+
+.navlink:hover {
+  color: #4accf8;
+  cursor: pointer;
+}
+
+.navlogo {
+  height: 60px;
+  width: 180px;
+  /* background-color: rgb(177, 67, 67); */
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .navbar {
+ 
+        padding: 0  200px 0 200px ;
+    
+      }
+
+}
+@media only screen and (max-width: 768px) {
+  .navmenu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+
+    margin: 0 20px 0 20px;
+  }
+
+  .navbar {
+    padding: 0 20px 0 20px;
+  }
+
+  .navmenu.active {
+    left: 0;
+
+    color: #4accf8;
+  }
+
+  .navitem {
+    margin: 2.5rem 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+.footer {
+  font-size: 1.5rem;
+}
