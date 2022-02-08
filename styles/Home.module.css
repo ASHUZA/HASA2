@@ -461,7 +461,7 @@
   margin-bottom: 30px;
 
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   margin-bottom: 30px;
@@ -602,7 +602,7 @@
 
 .adress_news {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
 }
@@ -757,7 +757,7 @@
 
   .item_logo {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
 
