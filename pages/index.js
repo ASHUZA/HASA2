@@ -4,7 +4,6 @@ import facebookFill from "@iconify/icons-eva/facebook-fill";
 import twitterSquare from "@iconify/icons-jam/twitter-square";
 import instagramIcon from "@iconify/icons-bi/instagram";
 import whatsappIcon from "@iconify/icons-fa-brands/whatsapp";
-import logo_nova from "./../pages/images/logo-nova2.png";
 
 import rdc_carte from "./../pages/images/rdc-carte.png";
 import dame1 from "./../pages/images/dame2.png";
@@ -12,7 +11,6 @@ import dame1 from "./../pages/images/dame2.png";
 import logo3 from "./../pages/images/logo3.png";
 import logo1 from "./../pages/images/logo2.png";
 import hero4 from "./../pages/images/hero4.jpg";
-import home1 from "./../pages/images/home1.jpg";
 // import home2 from "./../pages/images/home2.jpg";
 
 import React from "react";
@@ -26,37 +24,7 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <>
-      {/* <header className={styles.fixed-top ">
-          <div className={styles.container d-flex align-items-center">
-            <h1 className={styles.logo mr-auto">
-              <Link to="index.html"></Link>
-            </h1>
 
-            <nav className={styles.nav-menu d-none d-lg-block">
-              <ul>
-                <li className={styles.active">
-                  <Link to="/#home">Home</Link>
-                </li>
-                <li>
-                  <Link to="/#about">About</Link>
-                </li>
-                <li>
-                  <Link to="/#services">Skills</Link>
-                </li>
-                <li>
-                  <Link to="/#portfolio">Projets</Link>
-                </li>
-                <li>
-                  <Link to="/#team">Curriculum V</Link>
-                </li>
-
-                <li>
-                  <Link to="/#contact">Contact</Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </header> */}
 
       <div className={styles.sliders}>
         <div className={styles.sliders__content}>
@@ -71,16 +39,17 @@ export default function Home() {
             </div>
           </div>
 
-          <div className={styles.slider_image}    data-aos="fade-up"
-          data-aos-delay="600">
+          <div
+            className={styles.slider_image}
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             <Image src={dame1} alt="" />
           </div>
         </div>
       </div>
 
       <div className={styles.container}>
-        {/* <Slider images={Images} /> */}
-
         <section
           className={styles.about}
           data-aos="fade-up"
