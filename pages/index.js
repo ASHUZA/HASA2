@@ -26,15 +26,15 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <>
-      {/* <header className="fixed-top ">
-          <div className="container d-flex align-items-center">
-            <h1 className="logo mr-auto">
+      {/* <header className={styles.fixed-top ">
+          <div className={styles.container d-flex align-items-center">
+            <h1 className={styles.logo mr-auto">
               <Link to="index.html"></Link>
             </h1>
 
-            <nav className="nav-menu d-none d-lg-block">
+            <nav className={styles.nav-menu d-none d-lg-block">
               <ul>
-                <li className="active">
+                <li className={styles.active">
                   <Link to="/#home">Home</Link>
                 </li>
                 <li>
@@ -58,20 +58,21 @@ export default function Home() {
           </div>
         </header> */}
 
-      <div className="sliders">
-        <div className="sliders--content">
-          <div className="sliders--feature">
-            <h1 className="feature--title">
+      <div className={styles.sliders}>
+        <div className={styles.sliders__content}>
+          <div className={styles.sliders__feature}>
+            <h1 className={styles.feature__title}>
               Health around-Hasa, Partenaire de terrain au niveau local pour les
               soins de santé équitables pour tous
             </h1>
 
-            <div className="slider_logo">
+            <div className={styles.slider_logo}>
               <Image src={logo3} alt="" />
             </div>
           </div>
 
-          <div className="slider_image">
+          <div className={styles.slider_image}    data-aos="fade-up"
+          data-aos-delay="600">
             <Image src={dame1} alt="" />
           </div>
         </div>
