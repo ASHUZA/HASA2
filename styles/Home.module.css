@@ -225,7 +225,7 @@
   background-color: rgb(182, 87, 87);
 }
 
-.about .about_text {
+.about .about_text  {
   /* height:80%; */
   width: 550px;
 
@@ -238,7 +238,7 @@
 }
 
   
-.about_text {
+.about_text strong{
 
   font-family: Roboto;
   font-style: normal;
@@ -252,7 +252,7 @@
   text-align: justify;
 }
 
-.about .about_text .p {
+.about .about_text .p strong {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
@@ -721,7 +721,7 @@
 
 
     
-  .about_text {
+  .about_text strong {
 
     font-family: Roboto;
     font-style: normal;
