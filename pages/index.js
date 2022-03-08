@@ -34,8 +34,8 @@ export default function Home() {
         <div className={styles.sliders__content}>
           <div className={styles.sliders__feature}>
             <h1 className={styles.feature__title}>
-              Health around-Hasa, Partenaire de terrain au niveau local pour les
-              soins de santé équitables pour tous
+              Partenaire de terrain au niveau local pour la mise en œuvre de la
+              couverture sanitaire universelle en RDC
             </h1>
 
             <div className={styles.slider_logo}>
@@ -43,23 +43,22 @@ export default function Home() {
             </div>
           </div>
 
+          <div className={styles.slider_image_main}>
+            <div
+              className={styles.slider_image}
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <Image src={dame3} alt="" />
+            </div>
 
-          <div   className={styles.slider_image_main}>
-          <div
-            className={styles.slider_image}
-            data-aos="fade-up"
-            data-aos-delay="600"
-          >
-            <Image src={dame3} alt="" />
-          </div>
-
-          <div
-            className={styles.slider_image2}
-            data-aos="fade-up"
-            data-aos-delay="600"
-          >
-            <Image    className={styles.slider_image_cont} src={dame1} alt="" />
-          </div>
+            <div
+              className={styles.slider_image2}
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <Image className={styles.slider_image_cont} src={dame1} alt="" />
+            </div>
           </div>
         </div>
       </div>
@@ -77,15 +76,19 @@ export default function Home() {
             </div>
             <div className={styles.about_text}>
               <p data-aos="fade-up" data-aos-delay="600">
-                <strong>
-                  Initié comme projet depuis 2018, HEALTH AROUND/Santé autour,
-                  Hasa en sigle est une association sans but lucratif et
-                  Organisation Non Gouvernementale du développement (asbl-ONGD),
-                  médicale, humanitaire, local et apolitique basée en République
-                  Démocratique du Congo (RDC).
-                </strong>
+            
+                  Initié comme projet depuis 2006, fonctionnant comme un centre
+                  hospitalier et maternité à don bosco ( banlieue de kinshasa)
+                  dans l'optique d'offrir les soins de santé à la communauté
+                  devourvue d'un établissement sanitaire, Healtharound/ santé
+                  autour devient officiellement en 2021 une association
+                  médicale, humanitaire, nationale à but non lucratif
+                  (asbl-ONGD).
+            
               </p>
             </div>
+
+           
           </div>
         </section>
 
@@ -152,11 +155,11 @@ export default function Home() {
               </di>
 
               <di
-                className={styles.domaine_item}
+                className={styles.domaine_item_main}
                 data-aos="fade-up"
                 data-aos-delay="600"
               >
-                <p> VIH/SIDA </p>
+                 <p> VIH/SIDA </p>
                 <svg
                   width="49"
                   height="39"
@@ -171,7 +174,7 @@ export default function Home() {
                   <path
                     d="M30.4081 28.603C12.3097 25.6433 4.41088 19.4795 1.73443 13.5282C1.62031 13.2745 1.9056 13.9088 2.89354 10.4083C3.20033 9.32131 5.22749 6.18693 6.09305 5.46128C8.88035 3.12451 10.0901 3.12451 12.5097 3.12451H31.129C33.9918 3.12451 35.4233 3.12451 36.603 3.41552C40.2106 4.30538 43.0273 7.12209 43.9171 10.7296C44.2081 11.9094 44.2081 13.3408 44.2081 16.2037C44.2081 19.0235 44.2081 20.4335 43.8544 21.7279C42.8362 25.4533 39.0941 28.6332 35.2532 29.0368C33.9186 29.177 32.7485 28.9857 30.4081 28.603Z"
                     fill="#4C7CF7"
-                    // fill-opacity="0.38"
+                    // // fill-opacity="0.38"
                   />
                   <path
                     d="M32.9122 34.5702C23.8715 30.7875 19.5201 24.8963 17.8106 19.1374C17.2394 17.2132 16.9538 16.2511 18.1493 13.0962C18.6045 11.8947 20.4202 9.46186 21.4424 8.6835C24.1266 6.63965 26.2256 6.63965 30.4237 6.63965H33.9212C38.6546 6.63965 41.0214 6.63965 42.884 7.42472C45.2884 8.43816 47.2015 10.3513 48.215 12.7557C49 14.6183 49 16.985 49 21.7185C49 26.4583 49 28.8283 47.7782 31.0674C46.4519 33.4979 42.7846 35.9388 40.0306 36.2241C37.4934 36.487 35.9663 35.8481 32.9122 34.5702Z"
@@ -180,9 +183,8 @@ export default function Home() {
                   />
                 </svg>
               </di>
-
               <di
-                className={styles.domaine_item}
+                className={styles.domaine_item_main}
                 data-aos="fade-up"
                 data-aos-delay="600"
               >
@@ -201,7 +203,7 @@ export default function Home() {
                   <path
                     d="M30.4081 28.603C12.3097 25.6433 4.41088 19.4795 1.73443 13.5282C1.62031 13.2745 1.9056 13.9088 2.89354 10.4083C3.20033 9.32131 5.22749 6.18693 6.09305 5.46128C8.88035 3.12451 10.0901 3.12451 12.5097 3.12451H31.129C33.9918 3.12451 35.4233 3.12451 36.603 3.41552C40.2106 4.30538 43.0273 7.12209 43.9171 10.7296C44.2081 11.9094 44.2081 13.3408 44.2081 16.2037C44.2081 19.0235 44.2081 20.4335 43.8544 21.7279C42.8362 25.4533 39.0941 28.6332 35.2532 29.0368C33.9186 29.177 32.7485 28.9857 30.4081 28.603Z"
                     fill="#4C7CF7"
-                    // fill-opacity="0.38"
+                    // // fill-opacity="0.38"
                   />
                   <path
                     d="M32.9122 34.5702C23.8715 30.7875 19.5201 24.8963 17.8106 19.1374C17.2394 17.2132 16.9538 16.2511 18.1493 13.0962C18.6045 11.8947 20.4202 9.46186 21.4424 8.6835C24.1266 6.63965 26.2256 6.63965 30.4237 6.63965H33.9212C38.6546 6.63965 41.0214 6.63965 42.884 7.42472C45.2884 8.43816 47.2015 10.3513 48.215 12.7557C49 14.6183 49 16.985 49 21.7185C49 26.4583 49 28.8283 47.7782 31.0674C46.4519 33.4979 42.7846 35.9388 40.0306 36.2241C37.4934 36.487 35.9663 35.8481 32.9122 34.5702Z"
@@ -210,6 +212,8 @@ export default function Home() {
                   />
                 </svg>
               </di>
+             
+           
 
               <di
                 className={styles.domaine_item_main}
@@ -359,8 +363,7 @@ export default function Home() {
                 Nous apportons de l’aide sanitaire et humanitaire aux couches de
                 la population congolaise vulnérables et démunies entre autres la
                 femme et l’enfant se trouvant dans des milieux reculés,
-                extrêmes, défavorisés. (NB : il ne faut separer sanitaire et
-                humanitaire)
+                extrêmes, défavorisés.
               </p>
             </div>
           </div>
