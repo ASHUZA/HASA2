@@ -98,7 +98,7 @@ export default function Home() {
             <p>
               Notre rayon d’activité c’est toute l’étendue de la République
               Démocratique du Congo ( RDC), notamment les zones rurales et
-              Urbano-rurales.{" "}
+              Urbano-rurales.
             </p>
             <p data-aos="fade-up" data-aos-delay="800">
               Nous organisons des projets spécifiques adaptés à chaque situation
@@ -251,8 +251,8 @@ export default function Home() {
                 data-aos-delay="600"
               >
                 <p>
-                  {" "}
-                  Santé infantile/ Protection et Développement du Jeune Enfant{" "}
+                
+                  Santé infantile/ Protection et Développement du Jeune Enfant
                 </p>
                 <svg
                   width="49"
@@ -403,7 +403,7 @@ export default function Home() {
           data-aos-delay="700"
         >
           <div className={styles.footer_main}>
-            {" "}
+ 
             <div
               className={styles.item_logo}
               data-aos="fade-up"
@@ -460,27 +460,27 @@ export default function Home() {
               </p>
               <div className={styles.footer_icon}>
                 <div className={styles.footer_icon_item}>
-                  {" "}
+               
                   <a href="">
-                    {" "}
+                 
                     <Icon icon={twitterBird} />
                   </a>
                 </div>
                 <div className={styles.footer_icon_item}>
                   <a href="https://www.instagram.com/p/CZOaMzPN6rz/?utm_medium=copy_link">
-                    <Icon icon={instagramIcon} />{" "}
+                    <Icon icon={instagramIcon} />
                   </a>
                 </div>
                 <div className={styles.footer_icon_item}>
                   <a href="https://www.facebook.com/109239224984053/posts/115989427642366/">
-                    {" "}
-                    <Icon icon={facebookFill} />{" "}
+                 
+                    <Icon icon={facebookFill} />
                   </a>
                 </div>
                 <div className={styles.footer_icon_item}>
                   <a href="https://api.whatsapp.com/send?phone=243810706219">
-                    {" "}
-                    <Icon icon={whatsappIcon} />{" "}
+                  
+                    <Icon icon={whatsappIcon} />
                   </a>
                 </div>
               </div>
@@ -491,21 +491,21 @@ export default function Home() {
                 data-aos="fade-up"
                 data-aos-delay="800"
               >
-                {" "}
+           
                 ADRESSE
               </p>
               <p className={styles.adress_text}>
                 Kinshasa : siège technique : avenue MOBUTU N°157, Q. Don Bosco,
-                C. Mont Ngafula{" "}
+                C. Mont Ngafula
               </p>
 
               <div className={styles.adress_news}>
-                {" "}
+               
                 <input
                   className={styles.adress_input}
                   placeholder="Votre adress mail"
-                />{" "}
-                <button className={styles.adress_btn}>S’INSCRIRE</button>{" "}
+                />
+                <button className={styles.adress_btn}>S’INSCRIRE</button>
               </div>
             </div>
           </div>
