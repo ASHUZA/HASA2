@@ -370,6 +370,7 @@
   line-height: 21px;
 
   color: #000000;
+  text-align: justify;
 }
 
 .place {
@@ -400,10 +401,11 @@
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
+  text-align: justify;
 }
 
 .place_title {
-  font-family: DM Sans;
+  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -700,6 +702,13 @@
     margin-bottom: 20px;
   }
 
+
+    
+  .about_text {
+
+    text-align: justify;
+  }
+  
   .about2 .about_text {
     width: 350px;
     /* margin-top: -70px;  */
@@ -709,6 +718,7 @@
     flex-direction: column;
     /* background-color: rgb(182, 154, 30);  */
     margin-bottom: 40px;
+    text-align: justify;
   }
 
   .about_text_main {
@@ -786,6 +796,7 @@
   width: 100vw;
   background-size: cover;
   background-color: darkred;
+  overflow: hidden;
 }
 
 .sliders__content {
@@ -799,11 +810,36 @@
   /* padding: 20px; */
 }
 
+.slider_image_main{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+}
+
 .slider_image {
   /* background-color: rgb(1, 94, 148); */
-  height: 100%;
-  width: 400px;
+ height: 100%;
+  width: 350px;
 
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  z-index: 2;
+right: 290px ;
+}
+
+.slider_image2 {
+  /* background-color: rgb(1, 94, 148); */
+  height: 100%;
+  width: 450px;
+  position: absolute;
+  z-index: 3;
+right: 0 ;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -828,12 +864,12 @@
 }
 
 .feature__title {
-  font-family: Roboto;
+  font-family: Tahoma;
   font-style: normal;
   /* font-weight: 500; */
   font-size: 32px;
 
-  text-align: left;
+  text-align: center;
   color: #ffffff;
   margin-bottom: 20px;
 }
@@ -923,6 +959,61 @@
     display: none;
   }
 
+/* debut */
+/* 
+.sliders__content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 4;
+ 
+}
+.slider_image {
+  width: 10px;
+  display: none;
+}
+
+.sliders__feature{
+
+position: absolute;
+z-index: 6;
+}
+
+
+.slider_image2 {
+
+position: absolute;
+z-index: 5;
+right: -250px ; 
+
+}
+
+.slider_image_cont{
+opacity: 0.3;
+
+} */
+
+
+
+.slider_image2 {
+
+  position: absolute;
+  z-index: 1;
+  right: -150px ; 
+  
+  }
+
+  
+.slider_image_cont{
+  opacity: 0.3;
+  
+  }
+
+
+  
   .slider_logo {
     /* height: 200px; */
     width: 280px;

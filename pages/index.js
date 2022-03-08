@@ -7,6 +7,7 @@ import whatsappIcon from "@iconify/icons-fa-brands/whatsapp";
 
 import rdc_carte from "./../pages/images/rdc-carte.png";
 import dame1 from "./../pages/images/dame2.png";
+import dame3 from "./../pages/images/dame33.png";
 
 import logo3 from "./../pages/images/logo3.png";
 import logo1 from "./../pages/images/logo2.png";
@@ -42,12 +43,23 @@ export default function Home() {
             </div>
           </div>
 
+
+          <div   className={styles.slider_image_main}>
           <div
             className={styles.slider_image}
             data-aos="fade-up"
             data-aos-delay="600"
           >
-            <Image src={dame1} alt="" />
+            <Image src={dame3} alt="" />
+          </div>
+
+          <div
+            className={styles.slider_image2}
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
+            <Image    className={styles.slider_image_cont} src={dame1} alt="" />
+          </div>
           </div>
         </div>
       </div>
@@ -365,7 +377,7 @@ export default function Home() {
               data-aos="fade-up"
               data-aos-delay="600"
             >
-              KHealth around dispose d’un effectif dont 80% de membres actifs
+              Health around dispose d’un effectif dont 80% de membres actifs
               sont médecins cliniciens et médecins experts en santé publique
               (formés aussi en management de soins de santé primaire,
               épidémiologie de terrain, santé communautaire, santé
