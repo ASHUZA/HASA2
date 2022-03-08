@@ -238,7 +238,7 @@
 }
 
   
-.about_text strong{
+.about_text {
 
   font-family: Roboto;
   font-style: normal;
@@ -252,7 +252,7 @@
   text-align: justify;
 }
 
-.about .about_text .p strong {
+.about .about_text .p {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
@@ -721,7 +721,7 @@
 
 
     
-  .about_text strong {
+  .about_text {
 
     font-family: Roboto;
     font-style: normal;
