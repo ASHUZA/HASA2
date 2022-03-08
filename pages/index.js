@@ -78,7 +78,7 @@ export default function Home() {
               <p data-aos="fade-up" data-aos-delay="600">
                 Initié comme projet depuis 2006, fonctionnant comme un centre
                 hospitalier et maternité à don bosco ( banlieue de kinshasa)
-                dans l'optique d&#39; offrir les soins de santé à la communauté
+                dans l&#39; optique d&#39; offrir les soins de santé à la communauté
                 devourvue d&#39; un établissement sanitaire, Healtharound/ santé
                 autour devient officiellement en 2021 une association médicale,
                 humanitaire, nationale à but non lucratif (asbl-ONGD).
